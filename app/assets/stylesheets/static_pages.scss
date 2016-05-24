@@ -1,3 +1,34 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(https://fonts.googleapis.com/css?family=Michroma);
+
+.brand{ font-family: 'Michroma', sans-serif; }
+
+h1{ 
+	font-family: Tahoma;
+	color: red;
+	text-align: center;
+}
+
+a:link {text-decoration: none;}
+
+//footer
+footer { height: 155px; }
+
+.bg-dark {
+    color: #fff;
+    background-color: #222;
+}
+
+.sign-up {
+	padding: 5px;
+	font-family: 'Michroma', sans-serif;
+	background-color: #fff;
+	border: 1px solid #000;
+	color: #222;
+	border-radius: 15px;
+}
+
+
+
