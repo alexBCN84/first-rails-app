@@ -1,5 +1,5 @@
 == README
 
-I am becoming a full-stack web developer with Career Foundry. After having had my first experiences on the side of Front End with HTML, CSS, JQUERY and JAVASCRIPT, I am now transitioning towards back end.
+I am becoming a full-stack web developer with Career Foundry. After having had my first experiences on the side of Frontend with HTML, CSS, JQUERY and JAVASCRIPT, I am now transitioning towards Backend.
 
-This will be first Rails app ever.
+This will be my first Rails app ever.
