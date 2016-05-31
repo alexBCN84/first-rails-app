@@ -3,32 +3,67 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import url(https://fonts.googleapis.com/css?family=Michroma);
 
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+//navigation
 .brand{ font-family: 'Michroma', sans-serif; }
 
+.navbar-default .navbar-nav>li>a { color: #db1e26;}
+
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover { color: #dbc01e; }
+
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+	background-color: #db1e26;
+	color: #dbc01e;
+}
+
+.dropdown-menu>li>a { color: #db1e26; }
+
+.dropdown-menu>li>a:focus, 
+.dropdown-menu>li>a:hover {
+	background-color: #db1e26;
+	color: #dbc01e;
+}
+
+//content
 h1{ 
 	font-family: Tahoma;
-	color: red;
+	color: #DB1E26;
 	text-align: center;
 }
 
 a:link {text-decoration: none;}
+//space on top of pages
+.top-page { margin-top: 100px }
+
+//text
+.center { text-align: center }
 
 //footer
-footer { height: 155px; }
-
-.bg-dark {
-    color: #fff;
-    background-color: #222;
+/* Set the fixed height of the footer here */
+footer {
+  height: 60px;
+  background-color: #ed8e92; 
 }
 
-.sign-up {
-	padding: 5px;
-	font-family: 'Michroma', sans-serif;
-	background-color: #fff;
-	border: 1px solid #000;
-	color: #222;
-	border-radius: 15px;
-}
-
+.copyright { 
+	padding-top: 20px;
+	color: #db1e26;
+}  
 
 
